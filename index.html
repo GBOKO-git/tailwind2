@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <h1 class="text-[12px]  sm:text-[18px] md::text-[24px] lg:text-[46px] xl:text-[50px] font-bold underline">
+    Hello world!
+  </h1>
+  <!--flex row
+  h-screen w-full : permet d'utiliser toute l'ecran !
+  -->
+  <div class="h-screen w-full bg-black flex flex-col sm:flex-row gap-10">
+    <div class="bg-red-50 h-20 w-full sm:w-1/2">1</div>
+    <div class="bg-green-50 h-20 w-full sm:w-1/2">2</div>
+  </div>
+  <!--grid system
+  grid-rows-2 sm:grid-col-2 : rendre responsive une page
+  -->
+  <div  class="grid grid-rows-2 sm:grid-col-2 gap-10">
+    <div class="bg-blue-50 h-20">grid 1</div>
+    <div class="bg-orange-50 h-20">grid 2</div>
+  </div>
+</body>
+</html>
